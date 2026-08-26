@@ -7,7 +7,7 @@ permalink: /services/proofreading/
 <div class="page-hero">
   <div class="wrap">
     <h1>What Is Proofreading?</h1>
-    <p class="subtitle">The final pass before publication</p>
+    <p class="subtitle">A final pass before publication.</p>
   </div>
 </div>
 

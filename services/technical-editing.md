@@ -7,7 +7,7 @@ permalink: /services/technical-editing/
 <div class="page-hero">
   <div class="wrap">
     <h1>Technical Editing</h1>
-    <p class="subtitle">Editorial expertise from a decade in the tech industry</p>
+    <p class="subtitle">Editorial expertise from a decade in the tech industry.</p>
   </div>
 </div>
 
