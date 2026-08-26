@@ -11,7 +11,7 @@ permalink: /portfolio/
 </div>
 
 <div class="portfolio-section wrap">
-  <h2 class="section-title">Line Edits and Copy Edits</h2>
+  <h2 class="category-heading">Copy Edits</h2>
   <div class="portfolio-grid">
     {% for book in site.data.portfolio.line_edits %}
     <a href="{{ book.amazon }}" target="_blank" rel="noopener">
@@ -20,7 +20,7 @@ permalink: /portfolio/
     {% endfor %}
   </div>
 
-  <h2 class="section-title">Proofreads</h2>
+  <h2 class="category-heading">Proofreads</h2>
   <div class="portfolio-grid">
     {% for book in site.data.portfolio.proofreads %}
     <a href="{{ book.amazon }}" target="_blank" rel="noopener">
