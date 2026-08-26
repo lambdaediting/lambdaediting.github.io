@@ -1,0 +1,114 @@
+---
+layout: default
+title: FAQ
+permalink: /faq/
+---
+
+<div class="page-hero">
+  <div class="wrap">
+    <h1>FAQ</h1>
+  </div>
+</div>
+
+<div class="faq-section">
+
+  <div class="faq-category">
+    <h2>Scheduling</h2>
+
+    <div class="faq-item">
+      <h3>How far out do you book?</h3>
+      <p>Although I can sometimes take on new projects immediately or within 1&ndash;2 weeks, it is more likely that I will book you at least 4&ndash;8 weeks out. I can also book you much later if you're the planning-ahead type!</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does your schedule look like?</h3>
+      <p>I usually only work on one or two projects at a time in order to give them very individualized attention. That means that I tend to turn projects around quickly because they are often the only thing I'm working on.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if I need to move my editing or beta reading start date?</h3>
+      <p>I can usually be at least somewhat flexible about start dates. If you need an extra few days to finish up your own edits, I can most likely accommodate that. If you want to push it out more than that, I will work with you to schedule a new date that makes sense for us both.</p>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Payment and Billing</h2>
+
+    <div class="faq-item">
+      <h3>What payment methods do you accept?</h3>
+      <p>My default is to bill with PayPal invoices. PayPal invoices provide safety and security for the transaction and ensure that there is recourse in the event of a disagreement. I can also accommodate other online payment methods such as Stripe, Venmo, and Apple Pay. I do not accept cash or checks.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does your billing structure look like?</h3>
+      <p>If a project will amount to more than $150 USD, I take a 20% nonrefundable deposit upon booking. The full invoice amount is due before I return files or editorial reports to the client. When I'm almost done with a project, I'll update the invoice, send a reminder for payment, and give you a timeline for receiving your completed project files. I am usually able to produce final files within a day or two after sending the final invoice.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do you come up with your quotes?</h3>
+      <p>My editing, proofreading, and beta reading rates are listed on their respective pages. All prices will be rounded up based on word count. In the case of flexible rate services like line editing/copy editing, I will perform a sample edit or review an author's manuscript to determine the rate, and the quoted rate might be higher than the base rate if I feel that more work will need to be done on the project.</p>
+      <p>If you want any changes made to the style of editing or the scheduling of the project (such as expediting the process), I would be happy to discuss that, although it may result in additional cost.</p>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Process</h2>
+
+    <div class="faq-item">
+      <h3>Do you work on unfinished manuscripts?</h3>
+      <p>I generally do not perform normal editing services (critiques, dev edits, line editing, proofreading) on unfinished manuscripts. I don't think I'm effective at structural editing without seeing the full and complete story written out, and I don't think a novel is ready for line editing if it is unfinished.</p>
+      <p>If you would like me to look at an unfinished work, feel free to email me. I'm willing to do outline evaluations or beta reads of the beginning of novels. I am also willing to do copy edits/proofreads on the beginnings of books if you are preparing for something like querying agents. I'd be happy to discuss what you're looking to gain from my services and what my rates are for unfinished work.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What's your editing process like?</h3>
+      <p>It varies from book to book and service to service.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What are your terms of service?</h3>
+      <p>You can find my <a href="{{ '/assets/files/terms-of-service.pdf' | relative_url }}" target="_blank" rel="noopener">terms of service here</a>. They detail my general process, payment structure, scope of services, confidentiality clause, and communication preferences.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do you handle confidentiality?</h3>
+      <p>I will never publicly release your manuscript, in part or as a whole, edited or unedited, without your permission. I will also use reasonable measures of security to ensure that your work is never compromised. You can find my full confidentiality clause in my terms of service.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you edit AI-generated books or content?</h3>
+      <p>I do not edit books, stories, or articles solely generated by AI programs. If you've used AI or software like Grammarly to help edit your text, or you've used it to restructure small portions of your text, that's fine, and I will edit that type of work. But if your manuscript is primarily text written by an AI, I'm not a good fit as your editor.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you use AI, automated online/cloud software, LLMs, or similar tools in your editing?</h3>
+      <p>Absolutely not. I will never put your work into an LLM, online automated editing tool, AI agent, or anything like that. All my editing is done manually by me, with careful attention to your writing, style, and author voice.</p>
+      <p>As part of line editing/copy editing and proofreading, I do use Microsoft Word macros and PerfectIt to do final checks for typos and word consistency. My Word macros and PerfectIt are both local to my computer, and both macros and PerfectIt are industry-standard tools that have been used by book editors for many years.</p>
+    </div>
+  </div>
+
+  <div class="faq-category">
+    <h2>About Me</h2>
+
+    <div class="faq-item">
+      <h3>Are you willing to accept work from other editors?</h3>
+      <p>I do frequent subcontracting work for other fiction editors. If you would like to subcontract me for a project, definitely get in touch!</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you work for any traditional publishing houses or small presses?</h3>
+      <p>I do freelance copy editing and proofreading for several small presses and traditional publishing houses, including <a href="https://podiumentertainment.com/" target="_blank" rel="noopener">Podium Entertainment</a> and <a href="https://www.sourcebooks.com/" target="_blank" rel="noopener">Sourcebooks</a>. I am always open to working with publishing houses and small presses.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are you open to collaboration on media projects or books about editing?</h3>
+      <p>Yes! If you want to interview me for your book, podcast, blog, video, etc., please feel free to get in touch. I've previously collaborated with other writers and editors to provide informative interviews about editing.</p>
+    </div>
+  </div>
+
+  <div class="book-cta">
+    <h2>Still Have Questions?</h2>
+    <p>Send an email to <a href="mailto:{{ site.email }}">{{ site.email }}</a> and I'll be happy to help.</p>
+  </div>
+
+</div>

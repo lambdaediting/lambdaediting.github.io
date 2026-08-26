@@ -1,0 +1,25 @@
+title: Lambda Editing
+description: >-
+  Professional book editing services from Angela Traficante — copy editing,
+  proofreading, technical editing, and beta reading for fiction authors.
+email: contact@lambdaediting.com
+baseurl: ""
+url: ""
+
+author: Angela Traficante
+
+social:
+  instagram: https://www.instagram.com/pikapikagoose/
+  twitter: https://twitter.com/LambdaEditing
+  linkedin: https://www.linkedin.com/in/atraficante/
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
