@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Copy Editing
+description: >-
+  Sentence-level copy editing (also known as line editing) for fiction
+  manuscripts, starting at $0.01/word. See pricing and sample edits.
 permalink: /services/copy-editing/
 ---
 
@@ -49,3 +52,33 @@ permalink: /services/copy-editing/
     <p>Send an email to <a href="mailto:{{ site.email }}">{{ site.email }}</a> to inquire about my availability and see if I'd be a good fit for you!</p>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Copy Editing",
+  "name": "Copy Editing",
+  "alternateName": ["Line Editing", "Sentence-Level Editing"],
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "areaServed": "Worldwide",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "minPrice": 0.01,
+      "maxPrice": 0.025,
+      "priceCurrency": "USD",
+      "unitText": "per word"
+    }
+  }
+}
+</script>
+

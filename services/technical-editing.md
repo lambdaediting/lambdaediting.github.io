@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Technical Editing
+description: >-
+  Proofreading, copy editing, and fact-checking for technical content from an
+  editor with a computer science degree and a decade in the tech industry.
 permalink: /services/technical-editing/
 ---
 
@@ -31,3 +34,32 @@ permalink: /services/technical-editing/
     <p>Send an email to <a href="mailto:{{ site.email }}">{{ site.email }}</a> to inquire about my availability and see if I'd be a good fit for you!</p>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Technical Editing",
+  "name": "Technical Editing",
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "areaServed": "Worldwide",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "minPrice": 50,
+      "maxPrice": 100,
+      "priceCurrency": "USD",
+      "unitText": "per hour"
+    }
+  }
+}
+</script>
+

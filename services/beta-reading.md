@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Beta Reading
+description: >-
+  Reader-perspective beta reading reports for fiction manuscripts, priced at
+  $2.00/1000 words, covering romance, fantasy, horror, thriller, and mystery.
 permalink: /services/beta-reading/
 ---
 
@@ -50,3 +53,31 @@ permalink: /services/beta-reading/
     <p>Send an email to <a href="mailto:{{ site.email }}">{{ site.email }}</a> to inquire about my availability and see if I'd be a good fit for you!</p>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Beta Reading",
+  "name": "Fiction Beta Reading",
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "areaServed": "Worldwide",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2.00,
+      "priceCurrency": "USD",
+      "unitText": "per 1,000 words"
+    }
+  }
+}
+</script>
+

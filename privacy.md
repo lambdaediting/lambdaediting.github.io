@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Privacy Policy
+description: >-
+  How Lambda Editing collects, uses, and protects client information.
 permalink: /privacy/
 ---
 

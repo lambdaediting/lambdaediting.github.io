@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Proofreading
+description: >-
+  Final-pass proofreading for fiction manuscripts before publication,
+  starting at $0.008/word. See pricing and a sample proofread.
 permalink: /services/proofreading/
 ---
 
@@ -41,3 +44,31 @@ permalink: /services/proofreading/
     <p>Send an email to <a href="mailto:{{ site.email }}">{{ site.email }}</a> to inquire about my availability and see if I'd be a good fit for you!</p>
   </div>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Proofreading",
+  "name": "Proofreading",
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "areaServed": "Worldwide",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "minPrice": 0.008,
+      "priceCurrency": "USD",
+      "unitText": "per word"
+    }
+  }
+}
+</script>
+
