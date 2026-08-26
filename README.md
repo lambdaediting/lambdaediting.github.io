@@ -4,6 +4,17 @@ Source for [lambdaediting.com](https://lambdaediting.com), rebuilt as a static J
 
 ## Local development
 
+Requires **Ruby 3.1 or newer**. macOS ships with an old system Ruby (2.6) that can't
+install modern Jekyll's dependencies — if `bundle install` fails with gem errors,
+install a current Ruby first, e.g. via Homebrew:
+
+```bash
+brew install ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"  # add to your shell profile to persist
+```
+
+Then:
+
 ```bash
 bundle install
 bundle exec jekyll serve

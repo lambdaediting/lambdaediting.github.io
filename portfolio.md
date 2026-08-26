@@ -19,6 +19,10 @@ permalink: /portfolio/
     {% for book in site.data.portfolio.line_edits %}
     <a href="{{ book.amazon }}" target="_blank" rel="noopener" title="{{ book.title }} by {{ book.author }} (opens on Amazon)">
       <img src="{{ book.image | relative_url }}" alt="Cover of {{ book.title }} by {{ book.author }}" loading="lazy">
+      <span class="cover-caption">
+        <span class="cover-caption-title">{{ book.title }}</span>
+        <span class="cover-caption-author">{{ book.author }}</span>
+      </span>
     </a>
     {% endfor %}
   </div>
@@ -28,6 +32,10 @@ permalink: /portfolio/
     {% for book in site.data.portfolio.proofreads %}
     <a href="{{ book.amazon }}" target="_blank" rel="noopener" title="{{ book.title }} by {{ book.author }} (opens on Amazon)">
       <img src="{{ book.image | relative_url }}" alt="Cover of {{ book.title }} by {{ book.author }}" loading="lazy">
+      <span class="cover-caption">
+        <span class="cover-caption-title">{{ book.title }}</span>
+        <span class="cover-caption-author">{{ book.author }}</span>
+      </span>
     </a>
     {% endfor %}
   </div>
