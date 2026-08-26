@@ -11,6 +11,7 @@ permalink: /privacy/
 </div>
 
 <div class="page-content">
+  <p><em>Last updated: August 26, 2026</em></p>
   <p>This policy describes how I protect and use the information you give me. If you are asked to provide information, it will only be used in ways stated in this policy.</p>
 
   <h2>Why do I collect data from you?</h2>
@@ -39,9 +40,7 @@ permalink: /privacy/
   </ul>
 
   <h2>How do I use cookies?</h2>
-  <p>A cookie is a small file placed on your computer's hard drive by your browser. It enables my website to identify your computer as you view different pages on my website. The only way in which I use cookies is for web analytics, specifically Google Analytics.</p>
-  <p>Cookies do not provide me with access to your computer or any information about you other than that which you elect to share with me.</p>
-  <p>You can use your web browser's cookie settings to determine how my website uses cookies. If you do not want my website to store cookies on your computer or device, you can amend your settings. Please note that this may affect how my website functions, and some pages may become unavailable to you.</p>
+  <p>This website does not currently use cookies or any similar tracking technologies to collect information about your visit. If that changes in the future (for example, if I add web analytics), I will update this policy to describe what is used and why.</p>
 
   <h2>How do I collect your personal data?</h2>
   <p>I collect and store minimal information via the following forms:</p>
@@ -64,6 +63,12 @@ permalink: /privacy/
 
   <h2>With whom is your data shared?</h2>
   <p>Depending on which of my services you choose, your pen name, book title, and/or book cover may be displayed in my online portfolio after the project is completed and the book is published. No other information is shared with anyone outside of Lambda Editing, unless you request that I do so in writing, or the IRS elects to audit my business.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>This website and my services are not directed at children, and I do not knowingly collect personal information from anyone under the age of 13. If you believe a child has provided me with personal information, please contact me and I will delete it.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>I may update this policy from time to time, for example if my services, tools, or legal obligations change. Any updates will be posted on this page with a revised "Last updated" date above. I encourage you to review this policy periodically.</p>
 
   <h2>Contact Me</h2>
   <p>Please ask if you want me to delete or amend your records. As long as I'm complying with the IRS's legal requirements, I'll comply with your request immediately. If you have any questions or requests for modification or removal of your data, you are welcome to email me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>

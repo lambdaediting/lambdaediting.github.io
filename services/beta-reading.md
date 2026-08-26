@@ -7,7 +7,7 @@ permalink: /services/beta-reading/
 <div class="page-hero">
   <div class="wrap">
     <h1>What Is Beta Reading?</h1>
-    <p class="subtitle">A reader's-eye view of your manuscript</p>
+    <p class="subtitle">A reader's view of your manuscript.</p>
   </div>
 </div>
 

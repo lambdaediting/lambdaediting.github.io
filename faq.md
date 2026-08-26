@@ -46,7 +46,7 @@ permalink: /faq/
 
     <div class="faq-item">
       <h3>How do you come up with your quotes?</h3>
-      <p>My editing, proofreading, and beta reading rates are listed on their respective pages. All prices will be rounded up based on word count. In the case of flexible rate services like line editing/copy editing, I will perform a sample edit or review an author's manuscript to determine the rate, and the quoted rate might be higher than the base rate if I feel that more work will need to be done on the project.</p>
+      <p>My editing, proofreading, and beta reading rates are listed on their respective pages. All prices will be rounded up based on word count. In the case of flexible rate services like copy editing, I will perform a sample edit or review an author's manuscript to determine the rate, and the quoted rate might be higher than the base rate if I feel that more work will need to be done on the project.</p>
       <p>If you want any changes made to the style of editing or the scheduling of the project (such as expediting the process), I would be happy to discuss that, although it may result in additional cost.</p>
     </div>
   </div>
@@ -56,7 +56,7 @@ permalink: /faq/
 
     <div class="faq-item">
       <h3>Do you work on unfinished manuscripts?</h3>
-      <p>I generally do not perform normal editing services (critiques, dev edits, line editing, proofreading) on unfinished manuscripts. I don't think I'm effective at structural editing without seeing the full and complete story written out, and I don't think a novel is ready for line editing if it is unfinished.</p>
+      <p>I generally do not perform normal editing services (critiques, dev edits, copy editing, proofreading) on unfinished manuscripts. I don't think I'm effective at structural editing without seeing the full and complete story written out, and I don't think a novel is ready for copy editing if it is unfinished.</p>
       <p>If you would like me to look at an unfinished work, feel free to email me. I'm willing to do outline evaluations or beta reads of the beginning of novels. I am also willing to do copy edits/proofreads on the beginnings of books if you are preparing for something like querying agents. I'd be happy to discuss what you're looking to gain from my services and what my rates are for unfinished work.</p>
     </div>
 
@@ -83,7 +83,7 @@ permalink: /faq/
     <div class="faq-item">
       <h3>Do you use AI, automated online/cloud software, LLMs, or similar tools in your editing?</h3>
       <p>Absolutely not. I will never put your work into an LLM, online automated editing tool, AI agent, or anything like that. All my editing is done manually by me, with careful attention to your writing, style, and author voice.</p>
-      <p>As part of line editing/copy editing and proofreading, I do use Microsoft Word macros and PerfectIt to do final checks for typos and word consistency. My Word macros and PerfectIt are both local to my computer, and both macros and PerfectIt are industry-standard tools that have been used by book editors for many years.</p>
+      <p>As part of copy editing and proofreading, I do use Microsoft Word macros and PerfectIt to do final checks for typos and word consistency. My Word macros and PerfectIt are both local to my computer, and both macros and PerfectIt are industry-standard tools that have been used by book editors for many years.</p>
     </div>
   </div>
 

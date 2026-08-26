@@ -367,7 +367,8 @@ h2.section-title {
   font-weight: 600;
   margin: 0 0 6px;
 }
-.faq-item p { margin: 0; color: #243138; }
+.faq-item p { margin: 0 0 8px; color: #243138; }
+.faq-item p:last-child { margin-bottom: 0; }
 .faq-item a {
   color: #2c7f96;
   text-decoration: underline;
