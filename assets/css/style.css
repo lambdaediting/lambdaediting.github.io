@@ -38,7 +38,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---- Header ---- */
 .site-header {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e0e4e6;
   position: sticky;
   top: 0;
   background: #fff;
@@ -63,7 +63,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.95rem;
   letter-spacing: 0.02em;
 }
-.site-nav a:hover { color: #4c7a80; }
+.site-nav a:hover { color: #2c7f96; }
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -93,7 +93,7 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(8, 14, 18, 0.48);
 }
 .hero .wrap {
   position: relative;
@@ -127,7 +127,7 @@ h2.section-title {
 
 /* ---- About ---- */
 .about {
-  background: #e6eff0;
+  background: #dcebef;
 }
 .about .wrap {
   display: grid;
@@ -155,7 +155,7 @@ h2.section-title {
   gap: 28px;
 }
 .service-card {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #d4dadd;
   border-radius: 6px;
   padding: 32px 24px;
   display: flex;
@@ -173,13 +173,13 @@ h2.section-title {
 }
 .service-card p.desc {
   flex-grow: 1;
-  color: #444;
+  color: #314149;
   font-size: 0.95rem;
 }
 .service-card .price {
   font-weight: 600;
   margin: 16px 0;
-  color: #2f5e63;
+  color: #1d505d;
 }
 .service-card a.btn {
   align-self: flex-start;
@@ -205,7 +205,7 @@ h2.section-title {
 .contact-cta p {
   max-width: 560px;
   margin: 0 auto 32px;
-  color: #d8d8d8;
+  color: #cbd3d8;
   font-size: 1.05rem;
 }
 .contact-cta .email-link {
@@ -215,20 +215,20 @@ h2.section-title {
   border-bottom: 2px solid #fff;
   padding-bottom: 4px;
 }
-.contact-cta .email-link:hover { color: #bcd9dc; }
+.contact-cta .email-link:hover { color: #acd5e2; }
 
 /* ---- Footer ---- */
 .site-footer {
   padding: 48px 0;
   text-align: center;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #e0e4e6;
 }
 .footer-email {
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 600;
 }
-.footer-email:hover { color: #4c7a80; }
+.footer-email:hover { color: #2c7f96; }
 .social-bar {
   list-style: none;
   display: flex;
@@ -238,17 +238,17 @@ h2.section-title {
   margin: 0 0 20px;
 }
 .social-bar a { color: #1a1a1a; }
-.social-bar a:hover { color: #4c7a80; }
+.social-bar a:hover { color: #2c7f96; }
 .footer-meta {
   font-size: 0.85rem;
-  color: #777;
+  color: #5c747f;
   margin: 0;
 }
-.footer-meta a:hover { color: #4c7a80; text-decoration: underline; }
+.footer-meta a:hover { color: #2c7f96; text-decoration: underline; }
 
 /* ---- Generic content page ---- */
 .page-hero {
-  background: #e6eff0;
+  background: #dcebef;
   padding: 64px 0 48px;
   text-align: center;
 }
@@ -258,7 +258,7 @@ h2.section-title {
   margin: 0 0 8px;
 }
 .page-hero p.subtitle {
-  color: #444;
+  color: #314149;
   font-size: 1.05rem;
   margin: 0;
 }
@@ -283,8 +283,8 @@ h2.section-title {
   margin: 24px 0 32px;
 }
 .page-content .pricing-box {
-  background: #f6f9f9;
-  border-left: 4px solid #4c7a80;
+  background: #eef4f7;
+  border-left: 4px solid #2c7f96;
   padding: 24px 28px;
   margin: 32px 0;
   border-radius: 0 6px 6px 0;
@@ -304,7 +304,7 @@ h2.section-title {
 .portfolio-section { padding: 56px 0 80px; }
 .portfolio-section h2.section-title { text-align: left; margin-bottom: 8px; }
 .portfolio-section .cat-note {
-  color: #666;
+  color: #4d646f;
   margin: 0 0 28px;
 }
 .portfolio-grid {
@@ -332,7 +332,7 @@ h2.section-title {
 .faq-category h2 {
   font-size: 1.4rem;
   font-weight: 600;
-  border-bottom: 2px solid #e6eff0;
+  border-bottom: 2px solid #dcebef;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -342,7 +342,7 @@ h2.section-title {
   font-weight: 600;
   margin: 0 0 8px;
 }
-.faq-item p { margin: 0; color: #333; }
+.faq-item p { margin: 0; color: #243138; }
 
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
@@ -361,7 +361,7 @@ h2.section-title {
     flex-direction: column;
     padding: 16px 24px 24px;
     gap: 16px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e0e4e6;
     display: none;
   }
   .site-nav.open { display: flex; box-shadow: 0 8px 16px rgba(0,0,0,0.12); }
