@@ -35,6 +35,7 @@ a { color: inherit; text-decoration: none; }
 .btn:hover { background: #1a1a1a; color: #fff; }
 .btn-dark { background: #1a1a1a; color: #fff; }
 .btn-dark:hover { background: #3a3a3a; }
+.btn-lg { padding: 16px 34px; font-size: 0.95rem; }
 
 /* ---- Header ---- */
 .site-header {
@@ -102,16 +103,19 @@ a { color: inherit; text-decoration: none; }
   padding-bottom: 40px;
 }
 .hero h1 {
-  font-size: 2.4rem;
-  font-weight: 500;
-  margin: 0 0 16px;
-  max-width: 700px;
-  line-height: 1.25;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 0 18px;
+  max-width: 760px;
+  line-height: 1.2;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.35);
 }
 .hero p {
-  font-size: 1.2rem;
-  max-width: 600px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  max-width: 620px;
   margin: 0;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.3);
 }
 
 /* ---- Section basics ---- */
@@ -131,7 +135,7 @@ h2.section-title {
 }
 .about .wrap {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: 40px;
   align-items: center;
 }
@@ -145,7 +149,6 @@ h2.section-title {
   border-radius: 4px;
   box-shadow: 0 12px 32px rgba(0,0,0,0.12);
 }
-.about .cta { margin-top: 20px; }
 
 /* ---- Services ---- */
 .services { background: #fff; }
@@ -381,7 +384,8 @@ h2.section-title {
     display: none;
   }
   .site-nav.open { display: flex; box-shadow: 0 8px 16px rgba(0,0,0,0.12); }
-  .hero h1 { font-size: 1.9rem; }
+  .hero h1 { font-size: 2.3rem; }
+  .hero p { font-size: 1.15rem; }
   section { padding: 32px 0; }
   .service-grid { grid-template-columns: 1fr; }
   h2.section-title { font-size: 1.5rem; }
