@@ -5,6 +5,8 @@ description: >-
   Answers to common questions about scheduling, pricing, billing, and the
   editing and beta reading process at Lambda Editing.
 permalink: /faq/
+data_dependencies:
+  - _data/faq.yml
 ---
 
 <div class="page-hero">

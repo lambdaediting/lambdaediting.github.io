@@ -5,6 +5,8 @@ description: >-
   A selection of copy-edited and proofread novels, mostly romance, fantasy,
   and thriller, published by indie authors and small presses.
 permalink: /portfolio/
+data_dependencies:
+  - _data/portfolio.yml
 ---
 
 <div class="page-hero">
