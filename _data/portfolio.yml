@@ -149,6 +149,36 @@ line_edits:
     title: "The Tale of the Swamp Song"
     author: "K.C. Norton & Riley Rookhouse"
     amazon: "https://www.amazon.com/gp/product/B0C3XTRTSC"
+  - image: /assets/images/portfolio/line-edits/line-26.jpg
+    width: 320
+    height: 480
+    title: "The Burn Line"
+    author: "Jonathan Sims"
+    amazon: "https://www.amazon.com/dp/1464258538"
+  - image: /assets/images/portfolio/line-edits/line-27.jpg
+    width: 320
+    height: 480
+    title: "Promise Me"
+    author: "Sara Cate"
+    amazon: "https://www.amazon.com/dp/1464222525"
+  - image: /assets/images/portfolio/line-edits/line-28.jpg
+    width: 320
+    height: 480
+    title: "The Whispering"
+    author: "L.A. Detwiler"
+    amazon: "https://www.amazon.com/dp/B0GZJHHYPY"
+  - image: /assets/images/portfolio/line-edits/line-29.jpg
+    width: 299
+    height: 480
+    title: "Her Creation"
+    author: "Jeneane O'Riley"
+    amazon: "https://www.amazon.com/dp/B0H6VY29D6"
+  - image: /assets/images/portfolio/line-edits/line-30.jpg
+    width: 299
+    height: 480
+    title: "Bad Intentions"
+    author: "Iliana Xander"
+    amazon: "https://www.amazon.com/dp/B0GT6LNYQH"
 
 proofreads:
   - image: /assets/images/portfolio/proofreads/proof-01.jpg
