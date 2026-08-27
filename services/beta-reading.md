@@ -5,6 +5,9 @@ description: >-
   Reader-perspective beta reading reports for fiction manuscripts, priced at
   $2.00/1000 words, covering romance, fantasy, horror, thriller, and mystery.
 permalink: /services/beta-reading/
+redirect_from:
+  - /beta-reading
+  - /beta-reading/
 ---
 
 <div class="page-hero">

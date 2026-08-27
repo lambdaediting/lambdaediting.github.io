@@ -5,6 +5,9 @@ description: >-
   Proofreading, copy editing, and fact-checking for technical content from an
   editor with a computer science degree and a decade in the tech industry.
 permalink: /services/technical-editing/
+redirect_from:
+  - /tech-editing
+  - /tech-editing/
 ---
 
 <div class="page-hero">

@@ -5,6 +5,9 @@ description: >-
   Final-pass proofreading for fiction manuscripts before publication,
   starting at $0.008/word. See pricing and a sample proofread.
 permalink: /services/proofreading/
+redirect_from:
+  - /proofreading
+  - /proofreading/
 ---
 
 <div class="page-hero">

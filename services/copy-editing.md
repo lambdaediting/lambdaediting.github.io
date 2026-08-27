@@ -5,6 +5,9 @@ description: >-
   Sentence-level copy editing (also known as line editing) for fiction
   manuscripts, starting at $0.01/word. See pricing and sample edits.
 permalink: /services/copy-editing/
+redirect_from:
+  - /line-editing
+  - /line-editing/
 ---
 
 <div class="page-hero">
