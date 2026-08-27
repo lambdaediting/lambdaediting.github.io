@@ -218,6 +218,8 @@ h2.section-title {
   color: #243138;
   margin: 0 0 16px;
 }
+.testimonial-card .quote::before { content: "\201C"; }
+.testimonial-card .quote::after { content: "\201D"; }
 .testimonial-card .attribution {
   font-size: 0.85rem;
   font-weight: 600;
