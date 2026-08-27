@@ -20,13 +20,18 @@
 
 - category: Process
   items:
+    - question: What is the difference between copy editing and proofreading?
+      answer: "Copy editing is a heavier service that addresses any and all issues with sentence structure, grammar, punctuation, clarity, word choice, and so on. It's ideal for writing that needs some polish in multiple ways before publication. Proofreading is a final pass over the manuscript that fixes small issues like typos, missing words/punctuation, formatting issues, and so on. Proofreading is the final step in the process and is really only meant to be done on already edited text that needs minimal changes."
+    - question: What genres do you work on?
+      answer: |-
+        <p>My preferred editing genres are fantasy, paranormal, romance, mystery, horror, thriller, suspense, speculative fiction, historical fiction, and literary fiction. For romance, I edit all subgenres and heat levels (I love spice!), and I'm extremely comfortable with dark topics in stories (as you can see from <a href="/portfolio/">my portfolio</a>). I mostly edit adult and young adult novels, but I have some experience with middle-grade fiction as well.</p>
+    - question: What genres do you not work on?
+      answer: "At this time, I do not beta read or edit nonfiction, memoir, short stories, poetry, or children's books. I also do not edit or beta read content that is overly religious or spiritual, as I do not have a lot of experience in that area."
     - question: Do you work on unfinished manuscripts?
       answer: |-
-        <p>I generally do not perform normal editing services (critiques, dev edits, copy editing, proofreading) on unfinished manuscripts. I don't think I'm effective at structural editing without seeing the full and complete story written out, and I don't think a novel is ready for copy editing if it is unfinished.</p>
-        <p>If you would like me to look at an unfinished work, feel free to email me. I'm willing to do outline evaluations or beta reads of the beginning of novels. I am also willing to do copy edits/proofreads on the beginnings of books if you are preparing for something like querying agents. I'd be happy to discuss what you're looking to gain from my services and what my rates are for unfinished work.</p>
-      answer_plain: "I generally do not perform normal editing services (critiques, dev edits, copy editing, proofreading) on unfinished manuscripts. I don't think I'm effective at structural editing without seeing the full and complete story written out, and I don't think a novel is ready for copy editing if it is unfinished. If you would like me to look at an unfinished work, feel free to email me. I'm willing to do outline evaluations or beta reads of the beginning of novels."
-    - question: What's your editing process like?
-      answer: "It varies from book to book and service to service."
+        <p>I generally do not perform copy editing or proofreading services on unfinished manuscripts, as a novel is not typically ready for those steps if it is unfinished.</p>
+        <p>If you would like me to look at an unfinished work, feel free to email me. I'm sometimes willing to do beta reads of the beginnings of novels. I am also willing to do copy edits/proofreads on the beginnings of books if you are preparing for something like querying agents. I'd be happy to discuss what you're looking to gain from my services and what my rates are for unfinished work.</p>
+      answer_plain: "I generally do not perform copy editing or proofreading services on unfinished manuscripts, as a novel is not typically ready for those steps if it is unfinished. If you would like me to look at an unfinished work, feel free to email me. I'm sometimes willing to do beta reads of the beginnings of novels. I am also willing to do copy edits/proofreads on the beginnings of books if you are preparing for something like querying agents. I'd be happy to discuss what you're looking to gain from my services and what my rates are for unfinished work."
     - question: What are your terms of service?
       answer: 'You can find my <a href="/assets/files/terms-of-service.pdf" target="_blank" rel="noopener">terms of service here</a>. They detail my general process, payment structure, scope of services, confidentiality clause, and communication preferences.'
     - question: How do you handle confidentiality?
@@ -36,12 +41,15 @@
     - question: Do you use AI, automated online/cloud software, LLMs, or similar tools in your editing?
       answer: |-
         <p>Absolutely not. I will never put your work into an LLM, online automated editing tool, AI agent, or anything like that. All my editing is done manually by me, with careful attention to your writing, style, and author voice.</p>
-        <p>As part of copy editing and proofreading, I do use Microsoft Word macros and PerfectIt to do final checks for typos and word consistency. My Word macros and PerfectIt are both local to my computer, and both macros and PerfectIt are industry-standard tools that have been used by book editors for many years.</p>
+        <p>As part of copy editing and proofreading, I do use Microsoft Word macros and <a href="https://www.perfectit.com/" target="_blank" rel="noopener">PerfectIt</a> to do final checks for typos and word consistency. My Word macros and PerfectIt are both local to my computer, and both macros and PerfectIt are industry-standard tools that have been used by book editors for many years.</p>
       answer_plain: "Absolutely not. I will never put your work into an LLM, online automated editing tool, AI agent, or anything like that. All my editing is done manually by me, with careful attention to your writing, style, and author voice."
 
 - category: About Me
   items:
-    - question: Are you willing to accept work from other editors?
+    - question: What is your education and background?
+      answer: |-
+        <p>I have a bachelor's degree from Bennington College (Vermont) in English/Literary Arts and Computer Science. I've also taken courses from the <a href="https://www.the-efa.org/" target="_blank" rel="noopener">Editorial Freelancers Association</a> and the <a href="https://www.ciep.uk/" target="_blank" rel="noopener">Chartered Institute of Editing and Proofreading</a> in both proofreading and copy editing. I've been editing, proofreading, and beta reading professionally since 2019 for both indie clients and traditional publishing houses.</p>
+    - question: Do you accept work from other editors?
       answer: "I do frequent subcontracting work for other fiction editors. If you would like to subcontract me for a project, definitely get in touch!"
     - question: Do you work for any traditional publishing houses or small presses?
       answer: 'I do freelance copy editing and proofreading for several small presses and traditional publishing houses, including <a href="https://podiumentertainment.com/" target="_blank" rel="noopener">Podium Entertainment</a> and <a href="https://www.sourcebooks.com/" target="_blank" rel="noopener">Sourcebooks</a>. I am always open to working with publishing houses and small presses.'
