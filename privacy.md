@@ -4,6 +4,8 @@ title: Privacy Policy
 description: >-
   How Lambda Editing collects, uses, and protects client information.
 permalink: /privacy/
+data_dependencies:
+  - _config.yml
 ---
 
 <div class="page-hero">
@@ -13,7 +15,7 @@ permalink: /privacy/
 </div>
 
 <div class="page-content">
-  <p><em>Last updated: August 26, 2026</em></p>
+  <p><em>Last updated: August 28, 2026</em></p>
   <p>This policy describes how I protect and use the information you give me. If you are asked to provide information, it will only be used in ways stated in this policy.</p>
 
   <h2>Why do I collect data from you?</h2>
@@ -42,7 +44,10 @@ permalink: /privacy/
   </ul>
 
   <h2>How do I use cookies?</h2>
-  <p>This website does not currently use cookies or any similar tracking technologies to collect information about your visit. If that changes in the future (for example, if I add web analytics), I will update this policy to describe what is used and why.</p>
+  <p>This website does not use cookies or any similar tracking technologies to identify you or to follow you across other websites.</p>
+{% if site.cloudflare_analytics_token != "" %}
+  <p>I do use Cloudflare Web Analytics to understand general traffic patterns, such as which pages are visited most and which sites refer visitors to me. It is a privacy-focused, cookie-free service: it does not set cookies, does not fingerprint your browser or device, and does not build a profile of you or track you across other websites. It records only aggregate information about page visits, such as the page requested, the referring site, and a general country and browser type. This data cannot be used to identify you, and I cannot see individual visitors.</p>
+{% endif %}
 
   <h2>How do I collect your personal data?</h2>
   <p>I collect and store minimal information via the following forms:</p>
@@ -55,6 +60,9 @@ permalink: /privacy/
   <p>The minimal information I collect is stored on the following data services:</p>
   <ul>
     <li><strong>GitHub Pages.</strong> This is my website host.</li>
+{% if site.cloudflare_analytics_token != "" %}
+    <li><strong>Cloudflare.</strong> This is the provider of the cookie-free web analytics described above. It receives only aggregate, non-identifying information about page visits.</li>
+{% endif %}
     <li><strong>PayPal.</strong> This is the password-protected online payment service I use for collecting fees. Your data will be used for accounting purposes only and will never be divulged to third parties.</li>
     <li><strong>Gmail and Google Sheets.</strong> Gmail is my email provider, which I use to communicate with you and to send you email reminders about your project. Projects are logged into Google Sheets for business purposes.</li>
   </ul>

@@ -8,6 +8,11 @@ url: "https://lambdaediting.com"
 
 author: Angela Traficante
 
+# Cloudflare Web Analytics site token. Leave empty to disable analytics
+# entirely — the beacon script and the analytics paragraph in the privacy
+# policy are both gated on this value, so they can never disagree.
+cloudflare_analytics_token: "5fb03ec0f9f8445c888179ff84d2137b"
+
 social:
   instagram: https://www.instagram.com/pikapikagoose/
   twitter: https://twitter.com/LambdaEditing
