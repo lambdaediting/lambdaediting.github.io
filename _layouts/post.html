@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="post-hero" style="background-image: url('{{ page.hero | relative_url }}');">
+  <div class="wrap">
+    <p class="post-eyebrow">Lambda Editing</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.updated %}
+      <span class="post-meta-sep" aria-hidden="true">&middot;</span>
+      <span>Updated {{ page.updated | date: "%B %-d, %Y" }}</span>
+      {% endif %}
+      {% if page.reading_time %}
+      <span class="post-meta-sep" aria-hidden="true">&middot;</span>
+      <span>{{ page.reading_time }} min read</span>
+      {% endif %}
+    </p>
+  </div>
+</div>
+
+<article class="post-content">
+  {{ content }}
+</article>
+
+{% include author-bio.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ page.url | absolute_url }}#article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.updated %}{{ page.updated | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "image": {{ page.image | default: '/assets/images/og-image.jpg' | absolute_url | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.url | absolute_url | jsonify }}
+  },
+  "author": {
+    "@type": "Person",
+    "@id": {{ '/#angela' | absolute_url | jsonify }},
+    "name": {{ site.author | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": {{ '/#business' | absolute_url | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  }
+}
+</script>

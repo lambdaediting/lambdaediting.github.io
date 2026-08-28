@@ -437,6 +437,179 @@ h2.section-title {
 }
 .faq-item a:hover { color: #5c747f; }
 
+/* ---- Blog posts ---- */
+.post-hero {
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #1a1a1a;
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.post-hero .wrap {
+  margin: 0;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: clamp(24px, 7vw, 140px);
+}
+.post-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #9fb2bb;
+  margin: 0 0 14px;
+}
+.post-hero h1 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 1.18;
+  margin: 0 0 16px;
+  max-width: 640px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.45);
+}
+.post-meta {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #cbd3d8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.post-meta-sep { color: #5c747f; }
+
+.post-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 36px 24px 8px;
+}
+.post-content > p:first-of-type {
+  font-size: 1.1rem;
+  color: #243138;
+}
+.post-content h2 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e4e6;
+  padding-bottom: 10px;
+  margin: 34px 0 14px;
+}
+.post-content h3 {
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin: 26px 0 10px;
+  color: #243138;
+}
+.post-content p { margin: 0 0 14px; }
+.post-content ul { margin: 0 0 16px; padding-left: 22px; }
+.post-content li { margin-bottom: 7px; }
+.post-content a:not(.btn) {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.post-content a:not(.btn):hover { color: #5c747f; }
+
+/* Word lists (the filter-word inventory) read better as columns */
+.post-content ul.word-list {
+  columns: 2;
+  column-gap: 32px;
+  list-style: none;
+  padding-left: 0;
+}
+.post-content ul.word-list li {
+  break-inside: avoid;
+  padding-left: 16px;
+  position: relative;
+  color: #243138;
+}
+.post-content ul.word-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5c747f;
+}
+
+/* Before/after prose samples quoted inside a post */
+.post-content .example {
+  background: #f4f5f6;
+  border-left: 4px solid #5c747f;
+  padding: 16px 20px;
+  margin: 0 0 16px;
+  border-radius: 0 6px 6px 0;
+}
+.post-content .example p:last-child { margin-bottom: 0; }
+.post-content .example-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #5c747f;
+  margin: 0 0 8px;
+}
+
+/* Screenshots of tracked-changes examples */
+.post-content figure {
+  margin: 22px 0 26px;
+}
+.post-content figure img {
+  border: 1px solid #d4dadd;
+  border-radius: 6px;
+  background: #fff;
+  width: 100%;
+}
+.post-content figure a { display: block; }
+.post-content figure a:hover img { border-color: #5c747f; }
+.post-content figcaption {
+  font-size: 0.82rem;
+  color: #5c747f;
+  margin-top: 9px;
+  text-align: center;
+}
+
+.post-author {
+  max-width: 760px;
+  width: calc(100% - 48px);
+  margin: 12px auto 56px;
+  padding: 22px 24px;
+  background: #e0e4e6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post-author img {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.post-author-name {
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+.post-author-blurb {
+  margin: 0 0 8px;
+  font-size: 0.92rem;
+  color: #314149;
+}
+.post-author-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.post-author-link:hover { color: #5c747f; }
+
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
   .service-grid { grid-template-columns: repeat(2, 1fr); }
@@ -462,6 +635,14 @@ h2.section-title {
   .site-nav.open { display: flex; box-shadow: 0 8px 16px rgba(0,0,0,0.12); }
   .hero h1 { font-size: 2.3rem; }
   .hero p { font-size: 1.15rem; }
+  .post-hero { min-height: 260px; }
+  .post-hero h1 { font-size: 1.85rem; }
+  .post-content ul.word-list { columns: 1; }
+  .post-author {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+  }
   section { padding: 32px 0; }
   .service-grid { grid-template-columns: 1fr; }
   h2.section-title { font-size: 1.5rem; }

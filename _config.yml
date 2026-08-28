@@ -21,6 +21,16 @@ social:
 markdown: kramdown
 permalink: pretty
 
+# Blog posts live at /post/<slug>/ to mirror the paths from the old Wix site.
+# Scoped to posts only so existing pages keep the site-wide "pretty" style.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /post/:title/
+
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
