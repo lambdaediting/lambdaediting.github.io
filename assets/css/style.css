@@ -437,6 +437,14 @@ h2.section-title {
 }
 .faq-item a:hover { color: #5c747f; }
 
+/* ---- 404 ---- */
+.not-found-art {
+  display: block;
+  width: min(330px, 82%);
+  height: auto;
+  margin: 4px auto 30px;
+}
+
 /* ---- Blog posts ---- */
 .post-hero {
   position: relative;
